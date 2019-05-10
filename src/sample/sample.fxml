@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import sample.Tank?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Tank fx:id="tank" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" focusTraversable="true" height="50.0" onKeyPressed="#addDirection" onKeyReleased="#stopDirection" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+   </children>
+</AnchorPane>
